@@ -1,0 +1,25 @@
+Synopsis
+1. Introduction
+2. Script execution
+3. System requirements and language/version
+
+1. Introduction
+	Ruby Ecommerce is a weekend project developed using TDD methodology which exposes the object oriented side of ruby. Multiple classes have been included and reationship among them has been established. 
+
+2. Script execution
+	To run build_script.rb: 
+		step 1: Open the terminal(Ubuntu) and navigate to the root directory in your system.
+
+		step 2: Execute "ruby build_script.rb" command (without double quotes)
+
+	Possible issues:
+		1. Ruby not installed. In order to install ruby, first install rvm(from below url if Ubuntu) and followingly ruby using rvm.
+		resource: "https://github.com/rvm/ubuntu_rvm"
+
+		2. Files not executing due to wrong path fetched in build_script.rb file
+		solution: Replace the file path with value obtained by executing pwd command in terminal
+
+3. System requirements and language/version:
+	OS (tested on: Ubuntu 20.04.2 LTS
+	Language: Ruby
+	Version (tested on): 2.7.1
